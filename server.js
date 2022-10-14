@@ -10,7 +10,7 @@ var port = process.env.PORT || 8080;
 //var originBlacklist = parseEnvList(process.env.CORSANYWHERE_BLACKLIST);
 //var originWhitelist = parseEnvList(process.env.CORSANYWHERE_WHITELIST);
 var originBlacklist = [];
-var originWhitelist = ['http://127.0.0.1:8000', 'https://pyudng.github.io', 'https://www.wenku8.net'];
+var originWhitelist = ['http://127.0.0.1:8000', 'https://pyudng.github.io', 'https://www.wenku8.net', ''];
 function parseEnvList(env) {
   if (!env) {
     return [];
